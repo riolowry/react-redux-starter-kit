@@ -111,7 +111,7 @@ webpackConfig.module.loaders = [{
   query: {
     cacheDirectory: true,
     plugins: ['transform-runtime'],
-    presets: ['es2015', 'react', 'stage-0'],
+    presets: ['es2015', 'react', 'react-native', 'stage-0'],
     env: {
       development: {
         plugins: [
